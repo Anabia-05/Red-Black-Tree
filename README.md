@@ -1,18 +1,25 @@
-## Getting Started
+# Árvore Red-Black em Java  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém uma implementação de uma **Árvore Red-Black** desenvolvida em **Java**.  
 
-## Folder Structure
+## O que é uma Árvore Red-Black?  
 
-The workspace contains two folders by default, where:
+A Árvore Red-Black é uma estrutura de dados auto-balanceada baseada em árvore binária de busca.  
+Ela garante eficiência em operações de busca, inserção e remoção, mantendo o tempo de execução em **O(log n)**.  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Regras principais:
+1. Cada nó é vermelho ou preto.  
+2. A raiz é sempre preta.  
+3. Nós vermelhos não podem ter filhos ou pais vermelhos.  
+4. Todos os caminhos de um nó até suas folhas têm o mesmo número de nós pretos.  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Funcionalidades  
 
-## Dependency Management
+- Inserção de valores com balanceamento automático.  
+- Remoção de valores mantendo as propriedades da árvore.  
+- Busca de elementos na árvore.  
+- Exibição textual da árvore.  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
